@@ -7,7 +7,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build HiWiFi j3 OpenWrt
+name: Build 极路由3 OpenWrt
 
 on:
   repository_dispatch:
