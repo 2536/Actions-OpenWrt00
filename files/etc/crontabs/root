@@ -1,0 +1,4 @@
+0 0 * * * /etc/init.d/acme start
+00 5 * * * sleep 5 && touch /etc/banner && reboot
+#如果长时间断网就重启一次设备每5分钟执行一次
+*/5 * * * * /root/wan_check.sh
