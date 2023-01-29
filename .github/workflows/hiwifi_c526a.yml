@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build hiwifi_c526a222 OpenWrt
+name: Build hiwifi_c526a OpenWrt
 
 on:
   repository_dispatch:
